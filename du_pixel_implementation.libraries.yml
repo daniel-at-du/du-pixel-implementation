@@ -1,0 +1,11 @@
+scripts:
+  version: 1.x
+  js:
+    js/scripts.js: {}
+    https://widget.freshworks.com/widgets/43000000032.js:
+      type: external
+      minified: false
+      preprocess: false
+      attributes:
+        async: true
+        defer: true

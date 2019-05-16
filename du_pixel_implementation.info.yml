@@ -1,0 +1,6 @@
+name: DU Pixel Implementation
+description: Custom module built to install external scripts
+package: "Custom"
+type: module
+core: 8.x
+version: 1.x

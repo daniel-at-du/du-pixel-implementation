@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ * @param array $attachments
+ */
+
+function du_pixel_implementation_page_attachments(array &$attachments) {
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+    $attachments['#attached']['library'][] = "du_pixel_implementation/scripts";
+  }
+}
